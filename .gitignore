@@ -1,0 +1,7 @@
+*.log
+feiralivre-service
+main
+.~lock**
+*.csv#
+*.bkp
+*.dtmp
