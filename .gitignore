@@ -5,3 +5,5 @@ main
 *.csv#
 *.bkp
 *.dtmp
+*.out
+*.back

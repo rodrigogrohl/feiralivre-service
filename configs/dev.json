@@ -1,8 +1,14 @@
 {
+    "app": "feiralivre-service",
+    "environment": "dev",
     "rest_port": 8080,
-    "grpc_port": 50001,
+    "prometheus_port": 7777,
     "db": {
         "driver": "sqlite3",
-        "datasource": "./streetmarket.db"
+        "conn": "./feiralivre.db"
+    },
+    "log": {
+        "to_file": true,
+        "filename": "feiralivre.log"
     }
 }

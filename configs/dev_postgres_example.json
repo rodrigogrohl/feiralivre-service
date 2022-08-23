@@ -1,0 +1,14 @@
+{
+    "app": "feiralivre-service",
+    "environment": "dev",
+    "rest_port": 8080,
+    "prometheus_port": 7777,
+    "db": {
+        "driver": "postgres",
+        "conn": "postgres://postgres:notsecurepass@127.0.0.1:15432/postgres?sslmode=disable"
+    },
+    "log": {
+        "to_file": true,
+        "filename": "feiralivre.log"
+    }
+}
