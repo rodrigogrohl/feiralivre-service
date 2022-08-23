@@ -7,3 +7,5 @@ curl -X POST -s localhost:8080/v1/streetmarket/ -d '{"long": 657881, "lat": -657
 curl -X POST -s localhost:8080/v1/streetmarket/query/ -d '{"name": "IBIR"}'
 
 curl -X POST -s localhost:8080/v1/streetmarket/query/ -d '{"name": "IBIR"}'
+
+curl -X DELETE -s localhost:8080/v1/streetmarket/ -d '{"id": 1}'
